@@ -1,0 +1,93 @@
+
+body {
+    /* Add your CSS properties here */
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    border: solid blueviolet
+    
+}
+
+body {
+    font-family: 'Caveat', cursive;
+}
+
+#outer-box {
+    display: flexbox;    
+    background-color: powderblue;
+    border: 5px solid lightslategray;
+    padding: 10px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#fatih-box {
+    background-color: red;
+    border: 5px solid black;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+#fatih-box img {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+img {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    
+}
+
+.red-circle {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 25%;
+    position: top;
+    top: center;
+    margin: 0 auto;
+}
+
+
+footer{
+    text-align: right;
+    color: black;
+    font-size: 20px;
+       
+}
+
+p {
+    text-align: left;
+}
+
+@media (min-width:319px)and(max-width: 500px) {
+    body {
+        background-color: red;
+    }
+}
